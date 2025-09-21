@@ -119,7 +119,21 @@ configurations {
 }
 
 dependencies {
+    implementation "curse.maven:jei-238222:5846880"
 
+    //extra compat
+    implementation "curse.maven:geore-530544:7006641"
+    implementation "curse.maven:justdirethings-1002348:6369120"
+    implementation "curse.maven:justdynathings-1189855:6931832"
+    implementation "curse.maven:ae2-223794:6140781"
+    implementation "curse.maven:extendedae-892005:6164133"
+    implementation "curse.maven:phasorite-1140963:6091868"
+
+    //datagen libs
+    implementation "curse.maven:guideme-1173950:6688687"
+    implementation "curse.maven:glodium-957920:5821676"
+    implementation "curse.maven:kotlin-351264:5978393"
+    implementation "curse.maven:owo-532610:6314117"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -136,7 +150,8 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_license            : mod_license,
             mod_version            : mod_version,
             mod_authors            : mod_authors,
-            mod_description        : mod_description
+            mod_description        : mod_description,
+            jei_version_range      : jei_version_range
     ]
     inputs.properties replaceProperties
     expand replaceProperties
