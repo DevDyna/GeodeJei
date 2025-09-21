@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "tag": "geodejei:buddingtype/certus"
+  },
+  "clusterdrop": [
+    {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "ae2:quartz_cluster"
+    },
+    {
+      "item": "ae2:large_quartz_bud"
+    },
+    {
+      "item": "ae2:medium_quartz_bud"
+    },
+    {
+      "item": "ae2:small_quartz_bud"
+    }
+  ]
+}

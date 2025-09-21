@@ -1,0 +1,9 @@
+{
+  "values": [
+    "phasoritenetworks:budding_phasorite",
+    {
+      "id": "justdynathings:echoing_budding_phasorite",
+      "required": false
+    }
+  ]
+}

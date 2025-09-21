@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_emerald"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:emerald_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:emerald_cluster"
+    },
+    {
+      "item": "geore:large_emerald_bud"
+    },
+    {
+      "item": "geore:medium_emerald_bud"
+    },
+    {
+      "item": "geore:small_emerald_bud"
+    }
+  ]
+}

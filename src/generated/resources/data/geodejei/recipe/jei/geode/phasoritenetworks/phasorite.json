@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "phasoritenetworks"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "tag": "geodejei:buddingtype/phasorite"
+  },
+  "clusterdrop": [
+    {
+      "item": "phasoritenetworks:charged_phasorite_crystal"
+    },
+    {
+      "item": "phasoritenetworks:phasorite_crystal"
+    },
+    {
+      "item": "phasoritenetworks:phasorite_dust"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "phasoritenetworks:phasorite_cluster"
+    },
+    {
+      "item": "phasoritenetworks:large_phasorite_bud"
+    },
+    {
+      "item": "phasoritenetworks:medium_phasorite_bud"
+    },
+    {
+      "item": "phasoritenetworks:small_phasorite_bud"
+    }
+  ]
+}

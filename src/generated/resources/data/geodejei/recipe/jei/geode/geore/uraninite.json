@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_uraninite"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:uraninite_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:uraninite_cluster"
+    },
+    {
+      "item": "geore:large_uraninite_bud"
+    },
+    {
+      "item": "geore:medium_uraninite_bud"
+    },
+    {
+      "item": "geore:small_uraninite_bud"
+    }
+  ]
+}

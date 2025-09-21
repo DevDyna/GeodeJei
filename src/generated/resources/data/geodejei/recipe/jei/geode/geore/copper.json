@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_copper"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:copper_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:copper_cluster"
+    },
+    {
+      "item": "geore:large_copper_bud"
+    },
+    {
+      "item": "geore:medium_copper_bud"
+    },
+    {
+      "item": "geore:small_copper_bud"
+    }
+  ]
+}

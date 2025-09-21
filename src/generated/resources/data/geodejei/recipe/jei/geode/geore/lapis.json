@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_lapis"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:lapis_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:lapis_cluster"
+    },
+    {
+      "item": "geore:large_lapis_bud"
+    },
+    {
+      "item": "geore:medium_lapis_bud"
+    },
+    {
+      "item": "geore:small_lapis_bud"
+    }
+  ]
+}

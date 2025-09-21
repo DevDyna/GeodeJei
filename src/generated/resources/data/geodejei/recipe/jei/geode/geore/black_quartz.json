@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_black_quartz"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:black_quartz_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:black_quartz_cluster"
+    },
+    {
+      "item": "geore:large_black_quartz_bud"
+    },
+    {
+      "item": "geore:medium_black_quartz_bud"
+    },
+    {
+      "item": "geore:small_black_quartz_bud"
+    }
+  ]
+}

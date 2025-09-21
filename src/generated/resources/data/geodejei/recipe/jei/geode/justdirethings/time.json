@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "justdirethings"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "tag": "geodejei:buddingtype/time"
+  },
+  "clusterdrop": [
+    {
+      "item": "justdirethings:time_crystal"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "justdirethings:time_crystal_cluster"
+    },
+    {
+      "item": "justdirethings:time_crystal_cluster_large"
+    },
+    {
+      "item": "justdirethings:time_crystal_cluster_medium"
+    },
+    {
+      "item": "justdirethings:time_crystal_cluster_small"
+    }
+  ]
+}

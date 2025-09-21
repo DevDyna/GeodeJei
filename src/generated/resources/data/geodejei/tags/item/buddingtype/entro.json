@@ -1,0 +1,12 @@
+{
+  "values": [
+    "extendedae:entro_budding_half",
+    "extendedae:entro_budding_hardly",
+    "extendedae:entro_budding_mostly",
+    "extendedae:entro_budding_fully",
+    {
+      "id": "justdynathings:echoing_budding_entro",
+      "required": false
+    }
+  ]
+}

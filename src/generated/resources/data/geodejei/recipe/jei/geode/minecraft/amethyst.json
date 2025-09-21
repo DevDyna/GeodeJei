@@ -1,0 +1,25 @@
+{
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "tag": "geodejei:buddingtype/amethyst"
+  },
+  "clusterdrop": [
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "minecraft:amethyst_cluster"
+    },
+    {
+      "item": "minecraft:large_amethyst_bud"
+    },
+    {
+      "item": "minecraft:medium_amethyst_bud"
+    },
+    {
+      "item": "minecraft:small_amethyst_bud"
+    }
+  ]
+}

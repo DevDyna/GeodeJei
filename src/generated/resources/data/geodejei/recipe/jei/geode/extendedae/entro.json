@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "tag": "geodejei:buddingtype/entro"
+  },
+  "clusterdrop": [
+    {
+      "item": "extendedae:entro_crystal"
+    },
+    {
+      "item": "extendedae:entro_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "extendedae:entro_cluster"
+    },
+    {
+      "item": "extendedae:entro_cluster_large"
+    },
+    {
+      "item": "extendedae:entro_cluster_medium"
+    },
+    {
+      "item": "extendedae:entro_cluster_small"
+    }
+  ]
+}

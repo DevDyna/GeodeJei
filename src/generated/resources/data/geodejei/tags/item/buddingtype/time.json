@@ -1,0 +1,9 @@
+{
+  "values": [
+    "justdirethings:time_crystal_budding_block",
+    {
+      "id": "justdynathings:echoing_budding_time",
+      "required": false
+    }
+  ]
+}

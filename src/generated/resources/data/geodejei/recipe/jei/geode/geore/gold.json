@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "geore:budding_gold"
+  },
+  "clusterdrop": [
+    {
+      "item": "geore:gold_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "geore:gold_cluster"
+    },
+    {
+      "item": "geore:large_gold_bud"
+    },
+    {
+      "item": "geore:medium_gold_bud"
+    },
+    {
+      "item": "geore:small_gold_bud"
+    }
+  ]
+}
