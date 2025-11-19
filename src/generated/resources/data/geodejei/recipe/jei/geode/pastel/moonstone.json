@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pastel"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "pastel:budding_moonstone"
+  },
+  "clusterdrop": [
+    {
+      "item": "pastel:moonstone_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "pastel:moonstone_cluster"
+    },
+    {
+      "item": "pastel:large_moonstone_bud"
+    },
+    {
+      "item": "pastel:medium_moonstone_bud"
+    },
+    {
+      "item": "pastel:small_moonstone_bud"
+    }
+  ]
+}

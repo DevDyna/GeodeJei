@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pastel"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "pastel:budding_topaz"
+  },
+  "clusterdrop": [
+    {
+      "item": "pastel:topaz_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "pastel:topaz_cluster"
+    },
+    {
+      "item": "pastel:large_topaz_bud"
+    },
+    {
+      "item": "pastel:medium_topaz_bud"
+    },
+    {
+      "item": "pastel:small_topaz_bud"
+    }
+  ]
+}

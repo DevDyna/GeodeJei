@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pastel"
+    }
+  ],
+  "type": "geodejei:geode_jei",
+  "budding": {
+    "item": "pastel:budding_onyx"
+  },
+  "clusterdrop": [
+    {
+      "item": "pastel:onyx_shard"
+    }
+  ],
+  "clusters": [
+    {
+      "item": "pastel:onyx_cluster"
+    },
+    {
+      "item": "pastel:large_onyx_bud"
+    },
+    {
+      "item": "pastel:medium_onyx_bud"
+    },
+    {
+      "item": "pastel:small_onyx_bud"
+    }
+  ]
+}
