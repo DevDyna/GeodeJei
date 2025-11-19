@@ -16,6 +16,9 @@ import com.shynieke.geore.registry.GeOreRegistry;
 
 import appeng.core.definitions.AEBlocks;
 import appeng.core.definitions.AEItems;
+import earth.terrarium.pastel.PastelCommon;
+import earth.terrarium.pastel.registries.PastelBlocks;
+import earth.terrarium.pastel.registries.PastelItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -85,7 +88,7 @@ public class DataRecipe extends RecipeProvider {
                                                 EAESingletons.ENTRO_SHARD.asItem()))
                                 .group(ID)
                                 .unlockedBy()
-                                .save(c, "/entro" , ExtendedAE.MODID);
+                                .save(c, "/entro", ExtendedAE.MODID);
 
                 BuddingRecipeBuilder.of()
                                 .setBudding(x.ingredient(ItemTags.PHASORITE_BUDDINGS))
@@ -102,7 +105,7 @@ public class DataRecipe extends RecipeProvider {
                                 ))
                                 .group(ID)
                                 .unlockedBy()
-                                .save(c, "/phasorite" , PhasoriteNetworks.ID);
+                                .save(c, "/phasorite", PhasoriteNetworks.ID);
 
                 BuddingRecipeBuilder.of()
                                 .setBudding(x.ingredient(ItemTags.TIME_BUDDINGS))
@@ -115,7 +118,57 @@ public class DataRecipe extends RecipeProvider {
                                                 Registration.TimeCrystal))
                                 .group(ID)
                                 .unlockedBy()
-                                .save(c, "/time" , JustDireThings.MODID);
+                                .save(c, "/time", JustDireThings.MODID);
+
+                BuddingRecipeBuilder.of()
+                                .setBudding(x.ingredient(PastelBlocks.BUDDING_CITRINE.asItem()))
+                                .setClusters(List.of(
+                                                PastelBlocks.CITRINE_CLUSTER,
+                                                PastelBlocks.LARGE_CITRINE_BUD,
+                                                PastelBlocks.MEDIUM_CITRINE_BUD,
+                                                PastelBlocks.SMALL_CITRINE_BUD))
+                                .setBlockDrop(List.of(
+                                                PastelItems.CITRINE_SHARD))
+                                .group(ID)
+                                .unlockedBy()
+                                .save(c, "/citrine", PastelCommon.MOD_ID);
+
+                BuddingRecipeBuilder.of()
+                                .setBudding(x.ingredient(PastelBlocks.BUDDING_MOONSTONE.asItem()))
+                                .setClusters(List.of(
+                                                PastelBlocks.MOONSTONE_CLUSTER,
+                                                PastelBlocks.LARGE_MOONSTONE_BUD,
+                                                PastelBlocks.MEDIUM_MOONSTONE_BUD,
+                                                PastelBlocks.SMALL_MOONSTONE_BUD))
+                                .setBlockDrop(List.of(
+                                                PastelItems.MOONSTONE_SHARD))
+                                .group(ID)
+                                .unlockedBy()
+                                .save(c, "/moonstone", PastelCommon.MOD_ID);
+                BuddingRecipeBuilder.of()
+                                .setBudding(x.ingredient(PastelBlocks.BUDDING_ONYX.asItem()))
+                                .setClusters(List.of(
+                                                PastelBlocks.ONYX_CLUSTER,
+                                                PastelBlocks.LARGE_ONYX_BUD,
+                                                PastelBlocks.MEDIUM_ONYX_BUD,
+                                                PastelBlocks.SMALL_ONYX_BUD))
+                                .setBlockDrop(List.of(
+                                                PastelItems.ONYX_SHARD))
+                                .group(ID)
+                                .unlockedBy()
+                                .save(c, "/onyx", PastelCommon.MOD_ID);
+                BuddingRecipeBuilder.of()
+                                .setBudding(x.ingredient(PastelBlocks.BUDDING_TOPAZ.asItem()))
+                                .setClusters(List.of(
+                                                PastelBlocks.TOPAZ_CLUSTER,
+                                                PastelBlocks.LARGE_TOPAZ_BUD,
+                                                PastelBlocks.MEDIUM_TOPAZ_BUD,
+                                                PastelBlocks.SMALL_TOPAZ_BUD))
+                                .setBlockDrop(List.of(
+                                                PastelItems.TOPAZ_SHARD))
+                                .group(ID)
+                                .unlockedBy()
+                                .save(c, "/topaz", PastelCommon.MOD_ID);
 
         }
 
