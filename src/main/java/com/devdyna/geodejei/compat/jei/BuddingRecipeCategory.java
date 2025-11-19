@@ -11,7 +11,6 @@ import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.gui.drawable.IDrawable;
 import mezz.jei.api.helpers.IGuiHelper;
 import mezz.jei.api.recipe.IFocusGroup;
-import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.RecipeType;
 import mezz.jei.api.recipe.category.IRecipeCategory;
 import net.minecraft.network.chat.Component;
@@ -57,7 +56,7 @@ public class BuddingRecipeCategory implements IRecipeCategory<BuddingRecipe> {
 
         recipe.getClusters().forEach(i -> {
             var index = recipe.getClusters().indexOf(i);
-            builder.addSlot(RecipeIngredientRole.CATALYST, 45, 3 + (17 * index)).addIngredients(i);
+            builder.addOutputSlot(45, 3 + (17 * index)).addIngredients(i);
         });
 
         recipe.getBlockDrops().forEach(i -> {
